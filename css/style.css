@@ -33,11 +33,21 @@ header{
 }
 main{
 display: flex;
-flex-direction: column;
+flex-direction: column !important;
 justify-content: center;
 align-items: center;
 border: 2px solid var(--text-color);
 border-radius: 20px;
 padding: 2rem;
+
+}
+footer{
+bottom: 0;
+border-top: 2px solid var(--text-color);
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+
 
 }
