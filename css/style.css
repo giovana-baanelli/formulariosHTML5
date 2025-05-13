@@ -50,11 +50,11 @@ form{
 }
 form a{
     text-decoration: none;
-    padding: 0.5rem;
+    padding: 0.2rem;
     color: #fc5daf;
 }
 form a:hover{
-    border-bottom: 1px; solid var(--text-color)
+    border-bottom: 1px solid var(--text-color);
 }
 input{
     width: 100%;
